@@ -11,13 +11,12 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var player: AVAudioPlayer!
-
+    
     @IBAction func keyPressed(_ sender: UIButton) {
         guard let keyTitle = sender.titleLabel?.text else {
             return
         }
         playSound(sound: keyTitle)
-        sender.alpha = 0.5
         changedAlpha(button: sender)
     }
     
@@ -31,6 +30,7 @@ class ViewController: UIViewController {
     }
     
     func changedAlpha(button: UIButton) {
+        button.alpha = 0.5
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
             button.alpha = 1
         }
