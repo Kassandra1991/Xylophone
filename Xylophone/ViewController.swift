@@ -12,12 +12,6 @@ class ViewController: UIViewController {
     
     var player: AVAudioPlayer!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
     @IBAction func keyPressed(_ sender: UIButton) {
         guard let keyTitle = sender.titleLabel?.text else {
             return
@@ -32,16 +26,14 @@ class ViewController: UIViewController {
         guard let url = url else {
             return
         }
-            player = try! AVAudioPlayer(contentsOf: url)
-            player.play()
+        player = try! AVAudioPlayer(contentsOf: url)
+        player.play()
     }
     
     func changedAlpha(button: UIButton) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
             button.alpha = 1
         }
-        
     }
-    
 }
 

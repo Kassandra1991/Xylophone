@@ -91,14 +91,14 @@
                                             <constraint firstItem="uaz-RA-D8C" firstAttribute="top" secondItem="Gr5-GN-OwP" secondAttribute="top" id="vaK-MO-eqL"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jHG-pM-Rsn" userLabel="G key">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jHG-pM-Rsn" userLabel="F key">
                                         <rect key="frame" x="0.0" y="328.66666666666669" width="393" height="101.66666666666669"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I70-Fa-VfJ">
                                                 <rect key="frame" x="20" y="0.0" width="353" height="101.66666666666667"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="G">
+                                                <buttonConfiguration key="configuration" style="plain" title="F">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
@@ -115,14 +115,14 @@
                                             <constraint firstItem="I70-Fa-VfJ" firstAttribute="leading" secondItem="jHG-pM-Rsn" secondAttribute="leading" constant="20" id="mZv-Yh-w6A"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bps-Hm-mxb" userLabel="F key">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bps-Hm-mxb" userLabel="G key">
                                         <rect key="frame" x="0.0" y="438.33333333333331" width="393" height="101.66666666666669"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Tx-36-gvS">
                                                 <rect key="frame" x="22" y="0.0" width="349" height="101.66666666666667"/>
                                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="F">
+                                                <buttonConfiguration key="configuration" style="plain" title="G">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
