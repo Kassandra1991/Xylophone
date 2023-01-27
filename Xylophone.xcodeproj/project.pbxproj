@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03B6490229847B6C0075FA71 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		03D11D11298164340018F9F3 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D11D14298164340018F9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03D11D16298164340018F9F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				03D11D1F298164350018F9F3 /* LaunchScreen.storyboard */,
 				03D11D22298164350018F9F3 /* Info.plist */,
 				03D11D282981694E0018F9F3 /* Sounds */,
+				03B6490229847B6C0075FA71 /* README.md */,
 			);
 			path = Xylophone;
 			sourceTree = "<group>";
